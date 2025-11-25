@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['licence_plate']
+
+roboflow:
+  workspace: project-91jwl
+  project: anpr2-syxl7-cwd7d
+  version: 1
+  license_plate: CC BY 4.0
+  url: https://universe.roboflow.com/project-91jwl/anpr2-syxl7-cwd7d/dataset/1
